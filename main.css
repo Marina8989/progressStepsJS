@@ -34,7 +34,6 @@ body{
     border: 3px solid rgb(0, 162, 255);
 }
 .progress{
-    content: "";
     position: absolute;
     height: 4px;
     width: 27%;
@@ -42,6 +41,7 @@ body{
     z-index: 0;
 }
 .progress.active{
+    content: "";
     position: absolute;
     height: 4px;
     width: 27%;
