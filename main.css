@@ -31,7 +31,7 @@ body{
     border: 3px solid grey;
 }
 .circle.active{
-    border: 3px solid pink;;
+    border: 3px solid rgb(0, 162, 255);
 }
 .progress{
     content: "";
@@ -45,10 +45,18 @@ body{
     position: absolute;
     height: 4px;
     width: 27%;
-    background: pink;
+    background: rgb(0, 162, 255);
     z-index: 0;
 }
 .btn{
     padding: 10px 25px;
     margin-top: 1rem;
+    background: rgb(0, 162, 255);
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+.btn.disabled{
+    background: grey;
+    color: rgb(218, 216, 216);
 }
